@@ -2,7 +2,7 @@
 
 def happy_new_year():
     i = 10
-    while i in range(10, 0, -1):
+    while i > 0:
         print(i)
         i -= 1
     print("Happy New Year!")
